@@ -84,7 +84,7 @@ To get started, ensure you have the following installed:
     ├── src/
       ├── screens/
         ├── UserDetailsScreen.tsx
-        ├── UserListScreen.tsx
+        └── UserListScreen.tsx
   ├── package.json
   └── README.md
 ```

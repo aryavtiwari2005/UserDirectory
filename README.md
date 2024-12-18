@@ -24,8 +24,8 @@ To get started, ensure you have the following installed:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/user-directory-app.git
-   cd user-directory-app
+   git clone https://github.com/aryavtiwari2005/UserDirectory
+   cd UserDirectory
    ```
 
 2. **Install dependencies**
@@ -79,17 +79,20 @@ To get started, ensure you have the following installed:
 
 ```bash
 /user-directory-app
-  ├── App.js              # Main entry point of the app
-  ├── components/
-  │   └── UserListScreen.js  # Screen displaying the user list
-  ├── assets/
-  │   └── logo.png        # App logo
-  ├── package.json        # Project dependencies and scripts
-  └── README.md           # This file
+  ├── app/
+    └── index.tsx
+    ├── src/
+      ├── screens/
+        ├── UserDetailsScreen.tsx
+        ├── UserListScreen.tsx
+  ├── package.json
+  └── README.md
 ```
 
 ## Contributing
+
 If you'd like to contribute to this project, follow these steps:
+
 1. Fork the repository
 2. Create a new branch: git checkout -b feature-branch
 3. Make your changes and commit them: git commit -m 'Add new feature'
